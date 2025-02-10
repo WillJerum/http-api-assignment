@@ -14,9 +14,6 @@ const onRequest = (request, response) => {
     case '/style.css':
       htmlHandler.getCss(request, response);
       break;
-    case '/src/script.js':
-      htmlHandler.getScript(request, response);
-      break;
     case '/success':
       apiHandler.success(request, response);
       break;
