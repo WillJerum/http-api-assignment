@@ -56,7 +56,7 @@ const internal = (request, response) => {
 
 // Not Implemented (501)
 const notImplemented = (request, response) => {
-    respond(request, response, 501, 'This feature is not implemented yet.', 'notImplemented');
+    respond(request, response, 501, 'A get request for this page has not been implemented yet. Check again later for updated content.', 'notImplemented');
 };
 
 // 404 Not Found (Any other endpoint)
